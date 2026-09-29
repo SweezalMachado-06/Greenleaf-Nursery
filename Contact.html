@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<!---Character encoding--->
+<meta charset="UTF-8">
+<!----Mobile Responsiveness--->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Greenleaf Nursery</title>
+<link rel="icon" type="image/x-icon" href="Logo.jpg"><!---Favicon--->
+<style>
+.form-container{
+width:400px;
+padding:20px;
+border:1px solid #ccc;
+margin:30px auto;
+background-color:lightblue;
+}
+label{
+display:block;
+margin-top:10px;
+font-weight:bold;
+}
+input[type="text"],
+input[type="email"]{
+width:100%;
+padding:10px;
+margin-top:5px;
+border:1px solid #ccc;
+}
+button{
+margin-top:15px;
+margin-left:45%;
+padding:10px;
+background-color:navy;
+color:white;
+border:none;
+}
+
+p:hover{
+background-color:red;
+}
+.form{
+background-color:yellow;
+width:400px;
+text-align:center;
+font-size:25px;
+padding:20px;
+border:1px solid black;
+margin:15px auto;
+margin-top:20px;
+}
+</style>
+</head>
+
+
+<body style="background-color:Beige;">
+<!---LOGO--->
+<div style="text-align:center; margin-top:40px;"><img src="Logo.jpg" alt="Plant Nursery Logo" width="200px"/></div>
+<!---MENU--->
+<div style="text-align:center;padding:20px;margin-bottom:20px;">
+<a style="background-color:greenyellow;padding:15px 25px 15px 25px;"href="Index.html">HOME</a>
+<a style="background-color:greenyellow;padding:15px 25px 15px 25px;"href="About.html">ABOUT</a>
+<a style="background-color:greenyellow;padding:15px 25px 15px 25px;"href="Plant.html">PLANTS</a>
+<a style="background-color:greenyellow;padding:15px 25px 15px 25px;"href="Cards.html">PLANT CARDS</a>
+<a style="background-color:greenyellow;padding:15px 25px 15px 25px;"href="Contact.html">CONTACT INFO</a>
+</div>
+
+<hr style="border:2px solid darkgreen">
+<br>
+<div class="form-container">
+<h2>Customer Registration</h2>
+<form>
+<label for="name">Name</label>
+<input type="text" id="name" name="name">
+
+<label for="email">Email</label>
+<input type="email" id="email" name="email">
+<p style="font-family:Arial; font-size:20px;">Shop Now!!</p>
+<button type="submit">Submit</button>
+</form>
+</div>
+
+<div class="form">
+<h3 style="text-color:Red;">Thank You!!</h3>
+<h4 style="text-color:Blue;">Visit Again!!</h4>
+</div>
+</body>
+</html>
